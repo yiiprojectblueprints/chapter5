@@ -1,0 +1,33 @@
+{
+    "name": "yii-project-blueprints/chapter5-socialii",
+    "description": "Socialii is a Twitter Clone built in Yii Framework Project for the book 'Yii Project Blueprints'",
+    "license": "MIT",
+    "type" : "project",
+    "keywords": [
+        "yii",
+		"project",
+		"blueprints",
+		"packt",
+		"socialii"
+    ],
+	"authors": [
+        {
+            "name": "Charles R. Portwood II",
+            "email": "charlesportwoodii@ethreal.net",
+            "homepage": "https://www.erianna.com",
+            "role": "Lead Developer"
+        }
+    ],
+    "minimum-stability": "dev",
+	"repositories": [{
+            "type": "vcs",
+            "url": "https://github.com/ircmaxell/PHP-CryptLib"
+    }],
+    "require": {
+        "php": ">=5.3.7",
+        "yiisoft/yii": "1.1.14",
+        "ircmaxell/password-compat": "1.0.3",
+        "sendgrid/sendgrid": "2.0.4",
+        "hybridauth/hybridauth": "2.2.0.*@dev"
+    }
+}

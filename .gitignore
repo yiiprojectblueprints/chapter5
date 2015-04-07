@@ -1,0 +1,5 @@
+/vendor/*
+/assets/*
+/protected/runtime/*
+/protected/config/params.php
+composer.lock
